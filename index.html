@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mehammednur- Portfolio</title>
+  <!-- Add Caudex Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <!-- Add Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header id="navbar">
+    <div class="container">
+      <!-- Logo -->
+      <a href="#home" class="logo">*M</a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button id="interview-btn" class="btn">
+            <a href="chatbot/mame.html" class="ai"><i class="fas fa-microphone-lines"></i> Interview Me AI</a> 
+           </button>
+        </ul>
+        
+      </nav>
+
+      <!-- Interview Me AI Button with New Icon -->
+     
+
+      <!-- Hamburger Menu (for mobile) -->
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <!-- Background Video -->
+    <video autoplay muted loop id="hero-video">
+      <source src="Asset/video/Plexus_Background_White.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+
+      <h1 class="mamename">Mehammednur Hashim</h1>
+      <div class="heros">
+        <div class="name">
+          <img src="Asset/image/mame2.svg" alt="Your Name" class="first">
+          
+        </div>
+        
+        <div class="fiskil">
+          <h2 class="ui">
+            <!-- UX/UI Designer Icon -->
+            Ux/Ui Designer
+          </h2>
+          <h2 class="full">
+             <!-- Full Stack Developer Icon -->
+            Full Stack Software Developer
+          </h2>
+          <div class="btnhero">
+            <a href="#projects" class="btn"><i class="fas fa-briefcase"></i>View My Work</a>
+            <a href="chatbot/mame.html" class="btn1"><i class="fas fa-microphone-lines"></i>Interview Me AI</a>
+          </div>
+          
+        </div>
+        
+      </div>
+
+      </div>
+      
+  </section>
+
+<!--about section-->
+  <section id="about" data-aos="fade-up">
+    <div class="container">
+      <!-- Header Section -->
+      <div class="about-header">
+        <h2>About Me</h2>
+        <p class="tagline">Hi, I’m Mehammednur Hashim, a UX/UI Designer and Full-Stack Developer. I turn ideas into beautiful, 
+          functional digital experiences. With 2 +years of experience, I design intuitive interfaces and
+           build scalable web apps that solve real problems. I’m all about simplicity, elegance, and impact..</p>
+      </div>
+  
+      <!-- Skills Section -->
+      <div class="skills-grid" >
+        <div class="skill-card">
+          <i class="fas fa-pencil-ruler"></i> <!-- UX/UI Design Icon -->
+          <h3>UX/UI Design</h3>
+          <p>Creating intuitive and user-friendly interfaces.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-code"></i> <!-- Full Stack Development Icon -->
+          <h3>Full Stack Development</h3>
+          <p>Building scalable and performant web applications.</p>
+        </div>
+        
+      </div>
+   <!-- Skills Section -->
+   <div class="uniqeskil-section" >
+    <div class="uniqeskil-row">
+      <div class="uniqeskil" data-aos="fade-up">
+        <i class="fas fa-laptop"></i>
+        <h3>C++</h3>
+        <p>Object-oriented programming for high-performance applications.</p>
+      </div>
+      <div class="uniqeskil" data-aos="fade-up">
+        <i class="fab fa-laptop"></i>
+        <h3>C#</h3>
+        <p>Building scalable applications using .NET framework.</p>
+      </div>
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fab fa-html5"></i>
+        <h3>HTML</h3>
+        <p>Structuring content for the web with semantic elements.</p>
+      </div>
+    </div>
+    <div class="uniqeskil-row">
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS</h3>
+        <p>Styling and creating responsive layouts for modern web pages.</p>
+      </div>
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fab fa-js-square"></i>
+        <h3>JavaScript</h3>
+        <p>Creating dynamic and interactive websites with modern JS features.</p>
+      </div>
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+        <p>Versatile language for data analysis, AI, and web development.</p>
+      </div>
+    </div>
+    <div class="uniqeskil-row">
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fab fa-php"></i>
+        <h3>PHP</h3>
+        <p>Building dynamic websites and APIs with a powerful scripting language.</p>
+      </div>
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fab fa-python"></i>
+        <h3>Django</h3>
+        <p>Python-based framework for rapid web development and clean architecture.</p>
+      </div>
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fas fa-vr-cardboard"></i>
+        <h3>A-Frame</h3>
+        <p>Building virtual reality experiences using A-Frame framework.</p>
+      </div>
+    </div>
+    <div class="uniqeskil-row">
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fas fa-brain"></i>
+        <h3>Rasa</h3>
+        <p>Open-source framework for building AI-driven conversational assistants.</p>
+      </div>
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fab fa-figma"></i>
+        <h3>Figma</h3>
+        <p>Collaborative design tool for creating user interfaces and prototypes.</p>
+      </div>
+      <div class="uniqeskil"  data-aos="fade-up">
+        <i class="fab fa-git-alt"></i>
+        <h3>Git</h3>
+        <p>Version control for tracking changes and collaborating on projects.</p>
+      </div>
+    </div>
+  </div>
+      
+    </div>
+  </section>
+
+  <!--servise section-->
+  <section id="services" data-aos="zoom-in">
+    <div class="container">
+      <!-- Header Section -->
+      <div class="services-header">
+        <h2>What I Offer</h2>
+        <p class="tagline">Innovative solutions tailored to your needs.</p>
+      </div>
+  
+      <!-- Services Grid -->
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-pencil-ruler"></i> <!-- UX/UI Design Icon -->
+          </div>
+          <h3>UX/UI Design</h3>
+          <p>Creating intuitive and user-friendly interfaces that delight users.</p>
+         
+        </div>
+  
+        <!-- Service Card 2 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-code"></i> <!-- Full Stack Development Icon -->
+          </div>
+          <h3>Full Stack Development</h3>
+          <p>Building scalable and performant web applications from scratch.</p>
+          
+        </div>
+  
+        <!-- Service Card 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i> <!-- SEO & Analytics Icon -->
+          </div>
+          <h3>SEO & Analytics</h3>
+          <p>Optimizing websites for search engines and analyzing performance.</p>
+          
+        </div>
+  
+        <!-- Service Card 4 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-headset"></i> <!-- Support & Maintenance Icon -->
+          </div>
+          <h3>Support & Maintenance</h3>
+          <p>Providing ongoing support and maintenance for your projects.</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!--project section-->
+  <section id="projects" data-aos="fade-up">
+    <div class="container">
+      <!-- Header Section -->
+      <div class="projects-header">
+        <h2>My Projects</h2>
+        <p class="tagline">Turning ideas into reality through innovative solutions.</p>
+      </div>
+  
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">
+            <i class="fas fa-border-all"></i> All
+        </button>
+        <button class="filter-btn" data-filter="ux-ui">
+            <i class="fas fa-pencil-ruler"></i> UX/UI
+        </button>
+        <button class="filter-btn" data-filter="full-stack">
+            <i class="fas fa-code"></i> Full Stack
+        </button>
+    </div>
+    
+  
+      <!-- Projects Grid -->
+      <div class="project-card" data-category="ux-ui" data-aos="fade-up">
+        <div class="project-image">
+          <img src="Asset/image/mobde.svg" alt="Project 2">
+          <span class="project-visibility public">🌍 Public</span>
+        </div>
+        <div class="project-content">
+          <h3>Hotel Entertainment App</h3>
+          <div class="project-tech">🛠 Tech: Figma</div>
+          <div class="project-tags">
+            <span>#Personal</span>
+          </div>
+          <p class="short-desc">Hotel</p>
+          <p class="full-desc">The Hotel Entertainment App is a modern, user-centered solution designed to revolutionize the traditional hotel 
+            . This app aims to replace outdated hotel management and service structures by introducing a more interactive,
+             digital, and engaging way for guests to access hotel services, entertainment, and information</p>
+          <button class="read-more">
+            <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+          </button>
+          <a href="https://www.figma.com/proto/9Ayny2hiAEm7NxLP4gUT7N/FunZone?page-id=336%3A4331&node-id=549-777&viewport=634%2C-5286%2C0.25&t=SGvob5KtLksx89o6-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=466%3A4879&show-proto-sidebar=1" class="btn">Prototypes</a>
+        </div>
+      </div>
+  
+        
+  
+      <div class="project-card" data-category="ux-ui" data-aos="fade-up">
+        <div class="project-image">
+          <img src="Asset/image/metro.png" alt="Project 2">
+          <span class="project-visibility">🔒 Private</span>
+        </div>
+        <div class="project-content">
+          <h3>Metro Foreign Employment Agency</h3>
+          <div class="project-tech">🛠 Tech: Figma</div>
+          <div class="project-tags">
+            <span>#Enterprise</span>
+            
+          </div>
+          <p class="short-desc">Sharing cv and integrateto foreign company</p>
+          <p class="full-desc">Designed a comprehensive system to integrate the internal operations of Metro Foreign Employment Agency with external platforms for seamless CV sharing, information exchange, and real-time communication with foreign companies. The design includes an intuitive user interface, optimized workflows, 
+            and an integrated chat system to enhance collaboration between the agency and international employers.</p>
+          <button class="read-more">
+            <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+          </button>
+          <!--<a href="#" class="btn">View Project</a>-->
+        </div>
+      </div>
+
+      <div class="project-card" data-category="ux-ui" data-aos="fade-up">
+        <div class="project-image">
+          <img src="Asset/image/learnwork.png" alt="Project 2">
+          <span class="project-visibility">🔒 Private</span>
+        </div>
+        <div class="project-content">
+          <h3>Learn Work</h3>
+          <div class="project-tech">🛠 Tech: Figma</div>
+          <div class="project-tags">
+            
+            <span>#Personal</span>
+          </div>
+          <p class="short-desc">Learn Work – Student Support & Job Matching Platform</p>
+          <p class="full-desc">Designed and developed a unique student-supportive platform that helps students build their skills and easily find jobs. The platform provides a seamless experience for students to showcase their abilities, connect with potential employers, and access career-building resources.
+             It features an intuitive user-friendly design to enhance job discovery and skill development.</p>
+          <button class="read-more">
+            <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+          </button>
+          <!--<a href="#" class="btn">View Project</a>-->
+        </div>
+      </div>
+  
+        <div class="project-card"  data-category="full-stack" data-aos="fade-up" >
+          <div class="project-image">
+            <img src="Asset/image/ambasader.png" alt="Project 2">
+            <span class="project-visibility">🔒 Private</span>
+          </div>
+          <div class="project-content">
+            <h3>Ambassador Foam plc </h3>
+            <div class="project-tech">🛠 Tech: HTML, CSS, JS, PHP, MySQL</div>
+            <div class="project-tags">
+              <span>#Enterprise</span>
+            </div>
+            <p class="short-desc">Large inventory system</p>
+            <p class="full-desc">Developing a Comprehensive Inventory Management System for Ambasader Foam Company
+
+              Designing and developing a robust inventory management system to optimize stock tracking, sales records, and returns. The system supports five distinct roles—General Admin, Stock Manager, Merkato Shop, Efoyta Shop, and Fabrica Manager—each with a customized interface tailored to their specific tasks. It ensures real-time data accuracy, 
+              improves operational efficiency, and enhances overall inventory control for seamless business operations.</p>
+            <button class="read-more">
+              <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+            </button>
+            <!--<a href="#" class="btn">View Project</a>-->
+          </div>
+        </div>
+      
+    
+        
+        <div class="project-card" data-category="full-stack"  data-aos="fade-up">
+          <div class="project-image">
+            <img src="Asset/image/Screenshot (205).png" alt="Project 2">
+            <span class="project-visibility">🔒 Private</span>
+          </div>
+          <div class="project-content">
+            <h3>Ethiopian Chamber of Commerce and Sectoral Associations</h3>
+            <div class="project-tech">🛠 Tech: HTML, CSS, JS, PHP, MySQL</div>
+            <div class="project-tags">
+              <span>#Enterprise</span>
+              <span>#Internship</span>
+              <span>#Hosted</span>
+              
+            </div>
+            <p class="short-desc">Office Memorandum</p>
+            <p class="full-desc">Memorandum Management System for the Ethiopian Chamber of Commerce
+
+              Developed and implemented a memorandum management system to enhance interdepartmental communication within the Ethiopian Chamber of Commerce. Designed a user-friendly interface for efficient memorandum display and forwarding, featuring integrated session management, 
+              comment submission, and Ethiopian calendar support to streamline workflow and improve organizational efficiency.</p>
+            <button class="read-more">
+              <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+            </button>
+            <!--<a href="#" class="btn">View Project</a>-->
+          </div>
+        </div>
+  
+        
+  
+        <div class="project-card" data-category="full-stack"  data-aos="fade-up">
+          <div class="project-image">
+            <img src="Asset/image/Screenshot (206).png" alt="Project 2">
+            <span class="project-visibility">🔒 Private</span>
+          </div>
+          <div class="project-content">
+            <h3>Metro Foreign Employment Agency</h3>
+            <div class="project-tech">🛠 Tech: HTML, CSS, JS, PHP, MySQL,TelegramApi</div>
+            <div class="project-tags">
+              <span>#Enterprise</span>
+              <span>#Hosted</span>
+            </div>
+            <p class="short-desc">Customer File managment and Cv System</p>
+            <p class="full-desc">Developed a web-based CV generation and management system that collects user information and automatically generates CVs in five different formats. The system supports multiple file types for storage and seamlessly shares CVs directly to a Telegram group. Built with HTML, CSS, and JavaScript,
+               it ensures a responsive and user-friendly experience for efficient CV creation and distribution..</p>
+            <button class="read-more">
+              <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+            </button>
+            <!--<a href="#" class="btn">View Project</a>-->
+          </div>
+        </div>
+
+        <div class="project-card" data-category="full-stack" data-aos="fade-up">
+          <div class="project-image">
+            <img src="Asset/image/Screenshot (207).png" alt="Project 2">
+            <span class="project-visibility">🔒 Private</span>
+          </div>
+          <div class="project-content">
+            <h3>Ambassador Foam plc </h3>
+            <div class="project-tech">🛠 Tech: HTML, CSS, JS, PHP, MySQL</div>
+            <div class="project-tags">
+              <span>#Enterprise</span>
+              <span>#Hosted</span>
+              
+            </div>
+            <p class="short-desc">Efoyta shoppe</p>
+            <p class="full-desc">Designed and built a shop management system for Efoyta Shop, enabling seamless foam product sales, stock management, and performance tracking. The system provides real-time inventory updates,
+               sales monitoring, and an admin dashboard for efficient decision-making and improved operational control.</p>
+            <button class="read-more">
+              <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+            </button>
+            <!--<a href="#" class="btn">View Project</a>-->
+          </div>
+        </div>
+
+
+        <div class="project-card" data-category="full-stack"  data-aos="fade-up">
+          <div class="project-image">
+            <img src="Asset/image/Screenshot (203).png" alt="Project 2">
+            <span class="project-visibility public">🌍 Public</span>
+          </div>
+          <div class="project-content">
+            <h3>Orozon plc</h3>
+            <div class="project-tech">🛠 Tech: HTML, CSS, JS</div>
+            <div class="project-tags">
+              <span>#Enterprise</span>
+              <span>#Voluntary</span>
+            </div>
+            <p class="short-desc">Dating Landing Page</p>
+            <p class="full-desc">Qismati is a Muslim matrimonial app designed to facilitate lawful and Sharia-compliant marriages. With a community of over 7 million members, Qismati enables users to search, connect, 
+              and communicate with potential matches while ensuring a safe and respectful matrimonial experience.</p>
+            <button class="read-more">
+              <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+            </button>
+            <a href="https://github.com/mohNurCode/orozon" class="btn">View Project</a>
+          </div>
+        </div>
+
+
+        <div class="project-card" data-category="full-stack" data-aos="fade-up">
+          <div class="project-image">
+            <img src="Asset/image/Screenshot (200).png" alt="Project 2">
+            <span class="project-visibility public">🌍 Public</span>
+          </div>
+          <div class="project-content">
+            <h3>Ethiopian insurance corporation</h3>
+            <div class="project-tech">🛠 Tech: HTML, CSS, JS, PHP, MySQL,Chart.js,Chapa</div>
+            <div class="project-tags">
+              <span>#SeniorProject</span>
+              <span>#Personal</span>
+            </div>
+            <p class="short-desc">Vehicle insurance System</p>
+            <p class="full-desc">Designed and built a comprehensive vehicle insurance system for the Ethiopian Insurance Corporation, integrating five key roles to efficiently manage accident reports, real-time payments, third-party agreements, 
+              policy renewals, user management, and staff administration. The system also supports agent onboarding, claim analysis, and real-time reporting, ensuring a streamlined and efficient insurance management process.
+
+              Additionally, developed a custom local chatbot tailored for businesses and organizations, providing personalized interactions, automated customer support, and seamless information retrieval. The chatbot is optimized for local languages, cultural context, and business needs, enhancing user engagement and operational efficiency.</p>
+            <button class="read-more">
+              <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+            </button>
+            <a href="https://github.com/mohNurCode/vehicle_insurance_system" class="btn">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="full-stack" data-aos="fade-up">
+          <div class="project-image">
+            <img src="Asset/image/Screenshot (202).png" alt="Project 2">
+            <span class="project-visibility">🔒 Private</span>
+          </div>
+          <div class="project-content">
+            <h3>PPortfolio</h3>
+            <div class="project-tech">🛠 Tech: HTML, CSS, JS, Python,ML,Rasa</div>
+            <div class="project-tags">
+              <span>#Personal</span>
+            </div>
+            <p class="short-desc">Mame</p>
+            <p class="full-desc">Designed and built a unique portfolio project to showcase my skills in UX/UI design and machine learning, featuring a custom AI chatbot system. The chatbot provides personalized interactions, answering questions about my projects, experience, and skills while demonstrating real-time AI capabilities. The portfolio is crafted with a modern, user-friendly design, highlighting my expertise in design, development, and AI integration.</p>
+            <button class="read-more">
+              <i class="fas fa-chevron-down"></i> <!-- Down Arrow Icon -->
+            </button>
+            <!--<a href="#" class="btn">View Project</a>-->
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <!--contact-->
+  
+  <section class="contact" id="contact">
+    <h2>Contact me</h2>
+    <div class="contact-container">
+      <p>Email: <a href="mailto:me@example.com">mamehashim00@example.com</a></p>
+      <p>Phone: <a href="tel:+125944714766"><i class="fas fa-phone"></i></a></p>
+  
+      <!-- Social Media Icons in Flex Row -->
+      <div class="social-icons">
+        <a href="https://t.me/Mohnurcode" class="icon" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-telegram-plane"></i>
+        </a>
+        <a href="https://twitter.com/hashim_mame" class="icon" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mehammednurhashim" class="icon" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/mohNurCode" class="icon" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Sticky CV Button -->
+  <button class="cv-button" onclick="openModal()">Cv</button>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay" onclick="closeModal()"></div>
+
+  <!-- Modal -->
+  <div class="modal" id="cvModal">
+      <h3>Download My Resume</h3>
+      <a href="Asset/cv/Mehammednur_cv.pdf" target="_blank"><i class="fas fa-file-alt"></i> Resume</a>
+      <a href="temp-resume.pdf" target="_blank"><i class="fas fa-graduation-cap"></i> Degree</a>
+      <button class="close-btn" onclick="closeModal()"><i class="fas fa-times"></i> </button>
+  </div>
+
+
+
+  <footer class="footer">
+    <p>&copy; 2025 Mehammednur Hashim. All rights reserved.</p>
+  </footer>
+  
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  
+  <script>
+    //sticky button
+    function openModal() {
+            document.getElementById("cvModal").classList.add("show");
+            document.getElementById("overlay").classList.add("show");
+        }
+
+        function closeModal() {
+            document.getElementById("cvModal").classList.remove("show");
+            document.getElementById("overlay").classList.remove("show");
+        }
+
+    //animation effect
+    AOS.init({
+  duration: 1000, 
+  once: false,      
+});
+
+    //redmore and red less
+    document.querySelectorAll('.read-more').forEach(button => {
+  button.addEventListener('click', function () {
+    let parent = this.parentElement;
+    let fullDesc = parent.querySelector('.full-desc');
+    let icon = this.querySelector('i');
+
+    if (fullDesc.style.display === "none" || fullDesc.style.display === "") {
+      fullDesc.style.display = "block"; // Show full description
+      icon.classList.remove("fa-chevron-down");
+      icon.classList.add("fa-chevron-up"); // Change to Up Arrow Icon
+    } else {
+      fullDesc.style.display = "none"; // Hide full description
+      icon.classList.remove("fa-chevron-up");
+      icon.classList.add("fa-chevron-down"); // Change to Down Arrow Icon
+    }
+  });
+});
+
+
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      menuToggle.classList.toggle("active"); // For burger animation
+    });
+
+    // Add scroll effect for header
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+
+    // Filter Projects
+const filterButtons = document.querySelectorAll(".filter-btn");
+const projectCards = document.querySelectorAll(".project-card");
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    // Remove active class from all buttons
+    filterButtons.forEach((btn) => btn.classList.remove("active"));
+    // Add active class to the clicked button
+    button.classList.add("active");
+
+    const filter = button.getAttribute("data-filter");
+
+    // Show/hide projects based on filter
+    projectCards.forEach((card) => {
+      const category = card.getAttribute("data-category");
+
+      if (filter === "all" || category === filter) {
+        card.style.display = "block"; // Show matching projects
+      } else {
+        card.style.display = "none"; // Hide non-matching projects
+      }
+    });
+
+    // Refresh AOS to re-trigger animations for the newly visible elements
+    AOS.refresh();
+  });
+});
+
+  </script>
+</body>
+</html>

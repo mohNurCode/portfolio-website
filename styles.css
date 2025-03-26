@@ -172,18 +172,24 @@ body {
   text-align: center;
   color: #fff;
   overflow: hidden;
+  
+  /* Background Image */
+  background: url("Asset/image/Screenshot (210).png") no-repeat center center/cover;
 }
 
-/* Background Video */
+
+
+
+/* Background Video 
 #hero-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the video covers the entire section */
-  z-index: -1; /* Places the video behind the content */
-}
+  object-fit: cover; /* Ensures the video covers the entire section 
+  z-index: -1; /* Places the video behind the content 
+}*/
 
 /* Hero Content */
 .hero-content {
@@ -342,8 +348,8 @@ margin-top: 370px;
     gap: 10px; /* Adjust gap for better spacing */
   }
   .hero-content .first {
-    max-width: 150px; /* Even smaller size for very small screens */
-    margin-top: 120px; /* Adjust margin for very small screens */
+    max-width: 120px; /* Even smaller size for very small screens */
+    margin-top: 90px; /* Adjust margin for very small screens */
    
   }
   .mamename{
@@ -361,6 +367,7 @@ margin-top: 370px;
   }
   .hero-content .btn,
   .hero-content .btn1 {
+    margin-top: -20px;
     width: 100%; /* Makes buttons full-width on small screens */
     padding: 0.5rem 1rem;
     font-size: 0.85rem;
@@ -620,6 +627,7 @@ margin-top: 370px;
 @media (max-width: 480px) {
   .skill-card {
     padding: 20px;
+    width: 90%;
   }
   .skill-card i {
     font-size: 3rem;

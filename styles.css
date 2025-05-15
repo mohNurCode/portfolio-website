@@ -98,7 +98,21 @@ body {
   border: none;
   gap: 5px;
 }
+.project-visibility.coming-soon {
+  background-color: #3a0ca3;
+  color: white;
+}
 
+.project-card .btn {
+  margin-top: 15px;
+  display: inline-block;
+  background: #3a0ca3;
+  color: white;
+}
+
+.project-card .btn:hover {
+  background: #4361ee;
+}
 .menu-toggle .hamburger {
   width: 25px;
   height: 3px;
